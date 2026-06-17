@@ -4,7 +4,7 @@
     "description": "A Simple Nitro module to open an in-app browser in your React Native app.",
     "main": "./lib/commonjs/index.js",
     "module": "./lib/module/index.js",
-    "types": "./lib/typescript/src/index.d.ts",
+    "types": "./src/index.ts",
     "react-native": "src/index",
     "source": "src/index",
     "scripts": {
@@ -31,7 +31,7 @@
         "android/build.gradle",
         "android/gradle.properties",
         "android/CMakeLists.txt",
-        "android/src",
+        "android/src/**/*",
         "ios/**/*.h",
         "ios/**/*.m",
         "ios/**/*.mm",
